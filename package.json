@@ -1,0 +1,32 @@
+{
+  "name": "formulario",
+  "version": "0.0.1",
+  "description": "formulario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaCruz25/17100198-Formulario.git"
+  },
+  "author": "Priscila Cruz Aleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilaCruz25/17100198-Formulario/issues"
+  },
+  "homepage": "https://github.com/priscilaCruz25/17100198-Formulario#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "less": "^3.12.2",
+    "poppers.js": "^1.16.1",
+    "sass": "^1.27.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
