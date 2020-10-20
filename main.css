@@ -1,7 +1,53 @@
-.container{
-   
-}
+
 
 .checkbox{
     text-align: left;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+
+}
+
+.contenedor{
+    background: whitesmoke;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.contenedor{
+box-shadow: 0 0 10px whitesmoke;
+}
+
+
+.contenedor form{
+display: grid;
+grid-template-columns: ;
+grid-template-rows: ;
+}
+ 
+ .contenedor form button :focus{
+background: whitesmoke;
+transition: 1s ease-out;
+}
+
+
+.contenedor form{
+    margin: 0;
+    padding: 1em;
+}
+
+
+
+
+
+
