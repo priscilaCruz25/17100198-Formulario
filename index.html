@@ -9,7 +9,174 @@
 </head>
 
 <body>
-  <center><br>
+
+
+
+
+  <div class="container" id="contenedor">
+
+
+
+    <div class="seccionTop">
+
+      <div id="contenedor2" class="container">
+       
+        <div class="">
+          <div class="el-card-item">
+            <div class="el-card-avatar " style="text-align: right;">
+              <img id="urlImage1" src="/imagenes/perfil.png" style="height: 150px; width: 10%;" alt="user">
+            </div>
+            <div class="el-card-content">
+              <div class="custom-file">
+                <input  type="file" name="validatedCustomFile1" class="custom-file-input btn btn-warning shiny btn-file"
+                  id="validatedCustomFile1" accept="image/png, image/jpeg" required style="width: 100%; text-align: right;">
+                <label class="custom-file-label" id="validatedCustomFileLabel" for="validatedCustomFile"
+                  style="text-align: right; ">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Logo">
+        <center>
+          <div class="Logo"><img id="Logo" src="imagenes/logo.png"></div>
+        </center>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- APARTADO DE TÍTULO -->
+  <div class="tituloymatricula">
+    <div class="SolicitudInscripcion">
+      <label style="font-size: 20pt;">
+        <b><br>
+          <center>SOLICITUD DE INSCRIPCIÓN COMO RESIDENTE</center>
+          <center>OFICINA CONSULAR DE MÉXICO</center>
+        </b>
+      </label>
+    </div>
+
+    <div class="Matricula" style="text-transform: none;">
+      <label>No. de Matrícula:
+        <input type="text" required name="Matricula" maxlength="8" style="height: 9px; width: 10;" />
+      </label>
+    </div>
+  </div>
+
+  <div class="checkbox" id="checkb" style="text-transform: none;">
+    <label> ¿Ha estado inscrito en la oficina consular?</label>
+    <input type="checkbox" required name="respuestacheckbox" style="height: 10px; width: 20;" />
+  </div>
+
+
+
+  <div class="seccionCampos">
+    <div class="Datos">
+      <div class="Campos">
+        <center>
+          <h3>Datos del solicitante</h3>
+        </center>
+      </div>
+      <br>
+      <div class="linea1">
+        <label>
+          <input type="text" required name="Nombre" placeholder="Nombre(s)"
+            style="height: 35px; width: 30%; text-align: center;" />
+          <input type="text" required name="ApPaterno" placeholder="Apellido Paterno"
+            style="height: 35px; width:30%; text-align: center;" />
+          <input type="text" required name="ApMaterno" placeholder="Apellido Materno"
+            style="height: 35px; width: 30%; text-align: center;" />
+
+        </label>
+      </div>
+      <br>
+      <div class="linea2">
+        <label>
+          <input type="text" name="DNI" placeholder="No. DNI" style="height: 35px; width: 30%; text-align: center;"
+            required />
+          <input type="text" required name="validohasta" placeholder="Válido hasta (dd/mm/aaaa)"
+            style="height: 35px; width: 25%; text-align: center;" />
+          <input type="text" required name="equipoexp" placeholder="Equipo expedidor"
+            style="height: 35px; width: 35%; text-align: center;" />
+        </label>
+      </div>
+      <br>
+      <div class="linea3">
+        <input type="text" required name="np" placeholder="No. Pasaporte"
+          style="height: 35px; width: 13%; text-align: center;" />
+        <input type="text" required name="nl" placeholder="No. Libreta"
+          style="height: 35px; width: 13%; text-align: center;" />
+        <input type="text" required name="oficExp" placeholder="Oficina expedidora" style="height: 35px; width: 30%;" />
+        <input type="text" required name="fechaExp" placeholder="Fecha expedición(dd/mm/aaaa)"
+          style="height: 35px; width: 16%; text-align: center;" />
+        <input type="text" required name="fechaCad" placeholder="Fecha caducidad(dd/mm/aaaa)"
+          style="height: 35px; width: 16%; text-align: center;" />
+      </div>
+      <br>
+      <div class="linea4">
+        <input type="text" required name="FechaNa" placeholder="Fecha de nacimiento(dd/mm/aaaa)"
+          style="height: 35px; width: 25%; text-align: center;" />
+        <input type="text" required name="Lugar" placeholder="Lugar(municipio,estado,país)"
+          style="height:35px; width: 65%; text-align: center;" />
+      </div>
+      <br>
+      <div class="linea5">
+        <input type="text" required name="nombrepym" placeholder="Nombre del padre y madre"
+          style="height: 35px; width: 45%; text-align: center;" />
+        <input type="text" required name="sexo" placeholder="Sexo"
+          style="height: 35px; width: 5%; text-align: center;" />
+        <input type="text" required name="EstCiv" placeholder="Estado civil"
+          style="height: 35px; width: 15%; text-align: center;" />
+        <input type="text" required name="NivEst" placeholder="Nivel de estudios terminados"
+          style="height: 35px; width: 24%; text-align: center;" />
+      </div>
+      <br>
+      <div class="linea6">
+        <input type="text" required name="Domicilio"
+          placeholder="Domicilio en el país(calle, colonia, codigo postal, localidad, país)"
+          style="height: 35px; width: 91%; text-align: center;" />
+      </div>
+      <br><br>
+      <div class="linea7">
+        <input type="tel" required name="Tel1" placeholder="Teléfono"
+          style="height: 25px; width: 25%; text-align: center;" />
+        <input type="tel" required name="Tel2" placeholder="*Teléfono móvil"
+          style="height: 25px; width: 25%; text-align: center;" />
+        <input type="email" required name="email" placeholder="*Correo electrónico"
+          style="height: 25px; width: 39%; text-align: center;" />
+      </div>
+      <br>
+      <div class="checkbox" id="checkb2" style="text-transform: none;">
+        <center><label> En caso de que NO desee recibir información de la oficina consular por correo electrónico,
+            marque la casilla.</label>
+          <input type="checkbox" required name="respuestacheckbox2"
+            style="height: 10px; width: 90; text-align: center;" />
+        </center>
+      </div>
+      <br>
+      <div class="linea8">
+        <input type="text" required name="L1"
+          placeholder="Lugar de empadronamiento actual(municipio, y estado de oficina consular)"
+          style="height: 25px; width: 45%; text-align: center;" />
+        <input type="text" required name="L2" placeholder="Municipio de inscripción en México a efectos electorales"
+          style="height: 25px; width: 46%; text-align: center;" />
+      </div>
+      <br>
+      <div class="linea9">
+        <input type="text" required name="CentroTrab" placeholder="*Centro de trabajo(dirección y teléfono)"
+          style="height: 25px; width: 92%; text-align: center;" />
+      </div>
+      <br><br><br>
+    </div>
+    <center><button>Enviar</button></center>
+    <br><br>
+  </div>
+
+
+
+  <!-- <center><br>
     <h1>Solicitud de inscripción de residentes.</h1>
   </center>
   <div id="contenedor" class="container">
@@ -20,87 +187,87 @@
         <label class="form-check-label" for="exampleCheck1">¿Ha estado inscrito antes en esta oficina?</label>
       </div>
       <div class="row">
-        <div class="form-grup col-6">
+        <div class="form-grup">
           <br><label for="">Nombre</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup">
           <br><label for="">Apellido paterno</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup">
           <br><label for="">Apellido materno</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup">
           <br><label for="">DNI</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup">
           <br><label for="">Válido hasta(dd/mm/aaaa)</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup">
           <br><label for="">Equipo expedidor</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup">
           <br><label for="">No. Pasaporte</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">No. Libreta</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Ofcina expedidora</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Fecha de expedición</label>
           <input type="date" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Fecha de caducidad</label>
           <input type="date" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Fecha de nacimiento(dd/mm/aaaa)</label>
           <input type="date" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Lugar(municipio, estado, país)</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Nombre del padre y la madre</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Sexo</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Estado civil</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Nivel de estudios terminados</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Domicilio(calle,número, colonia)</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Teléfono</label>
           <input type="tel" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Teléfono móvil</label>
           <input type="tel" class="form-control" placeholder="" name="tel" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Correo electrónico</label>
           <input type="email" class="form-control" placeholder="" name="email" required>
         </div> <br>
@@ -108,15 +275,15 @@
           <input type="checkbox" class="form-check-input" id="checkbox2">
           <label class="form-check-label" for="exampleCheck2">En caso de que NO desee recibir información por correo, marcar la casilla. </label>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Lugar de empadronamiento actual</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Municipio y estado de inscripción</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
-        <div class="form-grup col-6">
+        <div class="form-grup ">
           <br><label for="">Centro de trabajo(dirección y teléfono)</label>
           <input type="text" class="form-control" placeholder="" name="nombre" required>
         </div>
@@ -125,18 +292,18 @@
       <button type="submit">Enviar</button>
     </form>
    </div>
-  
+   -->
 
   <link rel="stylesheet" href="/main.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-  
+
+
   <!-- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
   <!-- JS, Popper.js, and jQuery -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/poppers.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 
 </body>
 
